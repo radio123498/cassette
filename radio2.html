@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADIO CASSETTE</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f8fc;
+            color: #333;
+        }
+        header {
+            background: url('https://i.ibb.co/QdYKz1R/IMG-20241126-WA0064.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+            z-index: 1;
+        }
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 2;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: relative;
+            z-index: 2;
+        }
+        nav {
+            background-color: #004494;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #eaf3ff;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #004494;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .services {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: white;
+        }
+        .service {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f8fc;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service h3 {
+            font-size: 1.5em;
+            color: #0056b3;
+        }
+        .service p {
+            font-size: 1em;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004494;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RADIO CASSETTE</h1>
+        <p>Get More Life</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section class="hero">
+        <h2>We Help You Achieve Your Media Dreams</h2>
+        <p>At RADIO CASSETTE, we provide expertise in artistic production, media student training, 
+           and content creation. Together, we can create outstanding graduation projects and future works.</p>
+    </section>
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Artistic Production</h3>
+            <p>We offer professional production services including filming, editing, and directing to create exceptional projects.</p>
+        </div>
+        <div class="service">
+            <h3>Media Student Training</h3>
+            <p>Specialized training courses to prepare media students for high-quality content creation.</p>
+        </div>
+        <div class="service">
+            <h3>Graduation Projects</h3>
+            <p>We assist you in producing outstanding graduation projects that showcase your creativity and academic excellence.</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 RADIO CASSETTE - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
